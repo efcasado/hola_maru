@@ -19,8 +19,8 @@ defmodule HolaMaru.Mixfile do
 
   defp deps do
     [
-      {:maru        , "~> 0.12.5"},
-      {:maru_swagger, "~> 0.8.4"}
+      {:maru, github: "efcasado/maru", branch: "swagger-ui", override: true},
+      {:maru_swagger, github: "efcasado/maru_swagger", branch: "swagger-ui"}
     ]
   end
 end

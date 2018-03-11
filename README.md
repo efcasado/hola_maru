@@ -17,4 +17,3 @@ curl -X GET http://localhost:8080/hola/efcasado
 ```
 
 The Swagger UI will be available in [localhost:8080/api-docs/](http://localhost:8080/api-docs/).
-
